@@ -1,3 +1,4 @@
+
 <h2>{{brick.name}}</h2>
 
 <ul class="row bricksList">
@@ -8,3 +9,7 @@
     <p><button ng-click="brick.addToCart(size, details.price)">Add to Cart</button></p>
   </li>
 </ul>
+
+<a ui-sref=".cart">Cart</a>
+
+<div ui-view></div>
